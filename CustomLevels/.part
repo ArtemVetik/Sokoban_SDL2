@@ -1,0 +1,6 @@
+for (int y = 0; y < mapHeight; y++){
+        if (board[y]){
+            delete[]board[y];
+            board[y] = NULL;
+        }
+    }

@@ -1,0 +1,379 @@
+# depslib dependency file v1.0
+1579080689 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/main.cpp
+	"Core.h"
+
+1575911256 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Texture.cpp
+	"Texture.h"
+
+1573756864 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Texture.h
+	"RendererObject.h"
+
+1571486924 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Wall.cpp
+	"Wall.h"
+
+1569624642 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Wall.h
+	"Image.h"
+
+1571515686 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Box.cpp
+	"Box.h"
+
+1571515680 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Box.h
+	"Image.h"
+	"MovableObject.h"
+
+1576008114 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Map.cpp
+	"Map.h"
+
+1575913237 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Map.h
+	"Wall.h"
+	"Box.h"
+	"Window.h"
+	"Player.h"
+	"Cell.h"
+	"Target.h"
+	"Panel.h"
+	"List.h"
+	"GameObject.h"
+	"FilePaths.h"
+	"LevelInfo.h"
+	"GameExceptions.h"
+
+1575913581 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Player.cpp
+	"Player.h"
+
+1575913610 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Player.h
+	"Image.h"
+	"MovableObject.h"
+	"Box.h"
+	"Energy.h"
+	"SpriteSheet.h"
+	"GameObject.h"
+	"FilePaths.h"
+
+1573470386 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Window.h
+	<SDL2/SDL.h>
+
+1573471096 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Window.cpp
+	"Window.h"
+
+1575821464 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/GameObject.h
+	<iostream>
+
+1569078669 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Objects.h
+
+1571491168 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Moves.cpp
+	"Moves.h"
+
+1575823730 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Moves.h
+	"Map.h"
+
+1569692984 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Cell.h
+
+1569082620 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Cell.cpp
+	"Cell.h"
+
+1569624530 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Target.h
+	"Image.h"
+
+1569624578 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Target.cpp
+	"Target.h"
+
+1575823706 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/MovableObject.h
+
+1575911640 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/MovableObject.cpp
+	"MovableObject.h"
+	<SDL2/SDL.h>
+
+1575820998 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Energy.h
+	"Timer.h"
+
+1569597380 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Timer.h
+	<SDL2/SDL.h>
+
+1569597450 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Timer.cpp
+	"Timer.h"
+
+1575821876 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Image.h
+	"Texture.h"
+
+1576353865 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Image.cpp
+	"Image.h"
+
+1571515770 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Panel.cpp
+	"Panel.h"
+
+1575823758 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Panel.h
+	"Texture.h"
+
+1576011000 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Text.cpp
+	"Text.h"
+	<iostream>
+
+1574695066 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Text.h
+	"Texture.h"
+	"string"
+
+1575912015 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/SpriteSheet.cpp
+	"SpriteSheet.h"
+
+1575910916 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/SpriteSheet.h
+	"Image.h"
+
+1569668927 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/List.cpp
+	"List.h"
+
+1576007920 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/List.h
+	<cstdlib>
+	<string>
+
+1576250497 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/FilePaths.h
+
+1576007793 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/GameUI.cpp
+	"GameUI.h"
+
+1575878431 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/GameUI.h
+	"Image.h"
+	"Panel.h"
+	"Text.h"
+	"Window.h"
+	"Player.h"
+	"SpriteSheet.h"
+	"StatusBar.h"
+	"Button.h"
+	"GameState.h"
+	"GameExceptions.h"
+	"BaseMenu.h"
+
+1576253474 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/RendererObject.h
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_ttf.h>
+	"RendererObject.h"
+
+1570018332 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/CompositeTexture.cpp
+	"CompositeTexture.h"
+
+1570018593 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/CompositeTexture.h
+	<SDL2/SDL_image.h>
+	<SDL2/SDL.h>
+	<SDL2/SDL2_gfxPrimitives.h>
+	<SDL2/SDL_ttf.h>
+	"RendererObject.h"
+	<iostream>
+
+1575911699 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/RendererObject.cpp
+	"RendererObject.h"
+
+1575809300 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/StatusBar.cpp
+	"StatusBar.h"
+
+1570025112 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/StatusBar.h
+	"RendererObject.h"
+	"Image.h"
+
+1570031708 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/MapHelper.h
+	"Map.h"
+
+1576089854 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Game.h
+	"Map.h"
+	"GameUI.h"
+	"Moves.h"
+	"Timer.h"
+
+1576089950 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Game.cpp
+	"Game.h"
+
+1576005572 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/MenuManager.cpp
+	"MenuManager.h"
+
+1575823678 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/MenuManager.h
+	"Game.h"
+	"MainMenu.h"
+	"GameState.h"
+	"ChoiseLevelMenu.h"
+	"CompleteLevelInfo.h"
+	"LevelCompleteMenu.h"
+	"GameExceptions.h"
+	"ExceptionMenu.h"
+	"MapCreator.h"
+	"InfoMenu.h"
+
+1576006589 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Button.cpp
+	"Button.h"
+
+1575805766 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Button.h
+	"RendererObject.h"
+	"Image.h"
+	"Text.h"
+
+1576253450 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/MainMenu.cpp
+	"MainMenu.h"
+
+1575822498 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/MainMenu.h
+	"Button.h"
+	"Window.h"
+	"FilePaths.h"
+	"Image.h"
+	"GameState.h"
+	"BaseMenu.h"
+
+1570356607 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/CFG.cpp
+	"CFG.h"
+
+1570356207 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/CFG.h
+	"Window.h"
+	"MenuManager.h"
+
+1575819714 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/ChoiseLevelMenu.h
+	"Button.h"
+	<string>
+	<stdio.h>
+	"FilePaths.h"
+	"List.h"
+	"GameState.h"
+	"CompleteLevelInfo.h"
+	"DialogWindow.h"
+	"BaseMenu.h"
+	<windows.h>
+	<sys/types.h>
+	<dirent.h>
+	<dir.h>
+
+1576008935 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/ChoiseLevelMenu.cpp
+	"ChoiseLevelMenu.h"
+
+1575878533 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/GameState.h
+
+1570634724 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/GameState.cpp
+	"GameState.h"
+
+1576008255 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/LevelCompleteMenu.cpp
+	"LevelCompleteMenu.h"
+
+1575822328 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/LevelCompleteMenu.h
+	"Window.h"
+	"Button.h"
+	"Image.h"
+	"Panel.h"
+	"GameState.h"
+	"FilePaths.h"
+	"CompleteLevelInfo.h"
+	"BaseMenu.h"
+
+1576006816 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/CompleteLevelInfo.cpp
+	"CompleteLevelInfo.h"
+
+1575715388 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/CompleteLevelInfo.h
+	<SDL2/SDL.h>
+	"FilePaths.h"
+	"LevelInfo.h"
+
+1575909872 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/LevelInfo.h
+
+1575821070 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/ExceptionMenu.cpp
+	"ExceptionMenu.h"
+
+1575821102 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/ExceptionMenu.h
+	"Window.h"
+	"Text.h"
+	"Button.h"
+	"FilePaths.h"
+	"GameState.h"
+	"BaseMenu.h"
+
+1575821220 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/GameExceptions.h
+	<iostream>
+	<string>
+	<exception>
+
+1575825120 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Core.cpp
+	"Core.h"
+
+1573756842 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Core.h
+	"Window.h"
+	"MenuManager.h"
+
+1576215043 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/MapCreator.cpp
+	"MapCreator.h"
+
+1576011755 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/MapCreator.h
+	"Window.h"
+	"GameObject.h"
+	"FilePaths.h"
+	"MapCreatorUI.h"
+	"InputDialogWindow.h"
+	"CompleteLevelInfo.h"
+
+1575823284 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/MapCreatorUI.h
+	"Window.h"
+	"Button.h"
+	"Panel.h"
+	"FilePaths.h"
+	"GameState.h"
+	"DialogWindow.h"
+	"BaseMenu.h"
+
+1576010074 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/MapCreatorUI.cpp
+	"MapCreatorUI.h"
+
+1573479155 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/MessageBox.cpp
+	"MessageBox.h"
+	<iostream>
+
+1573478851 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/MessageBox.h
+	<SDL2/SDL.h>
+	<SDL2/SDL_messagebox.h>
+
+1576010852 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/DialogWindow.cpp
+	"DialogWindow.h"
+
+1575820714 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/DialogWindow.h
+	"Window.h"
+	"Button.h"
+	"List.h"
+	"Text.h"
+	"Panel.h"
+	"FilePaths.h"
+
+1574693612 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/TextInput.h
+	<string>
+	"Text.h"
+	"Window.h"
+	<SDL2/SDL.h>
+	<SDL2/SDL_ttf.h>
+
+1576011345 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/TextInput.cpp
+	"TextInput.h"
+
+1576011507 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/InputDialogWindow.h
+	"DialogWindow.h"
+	"TextInput.h"
+
+1576011994 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/InputDialogWindow.cpp
+	"InputDialogWindow.h"
+
+1575822044 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/InfoMenu.h
+	"Scrollbar.h"
+	"GameState.h"
+	"Text.h"
+	"Button.h"
+	"Panel.h"
+	"FilePaths.h"
+	"BaseMenu.h"
+
+1576012721 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/InfoMenu.cpp
+	"InfoMenu.h"
+
+1575824968 source:/home/artem/Документы/CodeBlocks/Sokoban_SDL2/Scrollbar.cpp
+	"Scrollbar.h"
+
+1575824516 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/Scrollbar.h
+	<cmath>
+	"Window.h"
+	"Image.h"
+	"FilePaths.h"
+	"RendererObject.h"
+
+1576007837 /home/artem/Документы/CodeBlocks/Sokoban_SDL2/BaseMenu.h
+	"Window.h"
+

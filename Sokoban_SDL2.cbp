@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Sokoban_SDL2" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Sokoban_SDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-lSDL2" />
+					<Add option="-lSDL2main" />
+					<Add option="-lSDL2_image" />
+					<Add option="-lSDL2_gfx" />
+					<Add option="-lSDL2_ttf" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Sokoban_SDL2" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="./" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add option="-lSDLmain" />
+			<Add option="-lSDL2" />
+			<Add option="-lSDL2_ttf" />
+			<Add option="-lSDL2_image" />
+		</Linker>
+		<Unit filename="BaseMenu.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Box.cpp" />
+		<Unit filename="Box.h" />
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
+		<Unit filename="Cell.cpp" />
+		<Unit filename="Cell.h" />
+		<Unit filename="ChoiseLevelMenu.cpp" />
+		<Unit filename="ChoiseLevelMenu.h" />
+		<Unit filename="CompleteLevelInfo.cpp" />
+		<Unit filename="CompleteLevelInfo.h" />
+		<Unit filename="Core.cpp" />
+		<Unit filename="Core.h" />
+		<Unit filename="DialogWindow.cpp" />
+		<Unit filename="DialogWindow.h" />
+		<Unit filename="Energy.h" />
+		<Unit filename="ExceptionMenu.cpp" />
+		<Unit filename="ExceptionMenu.h" />
+		<Unit filename="FilePaths.h" />
+		<Unit filename="Game.cpp" />
+		<Unit filename="Game.h" />
+		<Unit filename="GameExceptions.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="GameObject.h" />
+		<Unit filename="GameState.cpp" />
+		<Unit filename="GameState.h" />
+		<Unit filename="GameUI.cpp" />
+		<Unit filename="GameUI.h" />
+		<Unit filename="Image.cpp" />
+		<Unit filename="Image.h" />
+		<Unit filename="InfoMenu.cpp" />
+		<Unit filename="InfoMenu.h" />
+		<Unit filename="InputDialogWindow.cpp" />
+		<Unit filename="InputDialogWindow.h" />
+		<Unit filename="LevelCompleteMenu.cpp" />
+		<Unit filename="LevelCompleteMenu.h" />
+		<Unit filename="LevelInfo.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="List.h" />
+		<Unit filename="MainMenu.cpp" />
+		<Unit filename="MainMenu.h" />
+		<Unit filename="Map.cpp" />
+		<Unit filename="Map.h" />
+		<Unit filename="MapCreator.cpp" />
+		<Unit filename="MapCreator.h" />
+		<Unit filename="MapCreatorUI.cpp" />
+		<Unit filename="MapCreatorUI.h" />
+		<Unit filename="MenuManager.cpp" />
+		<Unit filename="MenuManager.h" />
+		<Unit filename="MovableObject.cpp" />
+		<Unit filename="MovableObject.h" />
+		<Unit filename="Moves.cpp" />
+		<Unit filename="Moves.h" />
+		<Unit filename="Panel.cpp" />
+		<Unit filename="Panel.h" />
+		<Unit filename="Player.cpp" />
+		<Unit filename="Player.h" />
+		<Unit filename="RendererObject.cpp" />
+		<Unit filename="RendererObject.h" />
+		<Unit filename="Scrollbar.cpp" />
+		<Unit filename="Scrollbar.h" />
+		<Unit filename="SpriteSheet.cpp" />
+		<Unit filename="SpriteSheet.h" />
+		<Unit filename="StatusBar.cpp" />
+		<Unit filename="StatusBar.h" />
+		<Unit filename="Target.cpp" />
+		<Unit filename="Target.h" />
+		<Unit filename="Text.cpp" />
+		<Unit filename="Text.h" />
+		<Unit filename="TextInput.cpp" />
+		<Unit filename="TextInput.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="Timer.cpp" />
+		<Unit filename="Timer.h" />
+		<Unit filename="Wall.cpp" />
+		<Unit filename="Wall.h" />
+		<Unit filename="Window.cpp" />
+		<Unit filename="Window.h" />
+		<Unit filename="main.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
