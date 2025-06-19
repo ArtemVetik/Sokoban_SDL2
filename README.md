@@ -14,8 +14,8 @@ The game was developed and run on Kubuntu 19.04.
 </p>
 
 <p align="center">
-  <img src="https://github.com/ArtemVetik/Sokoban_SDL2/blob/master/docs/sokoban_02.png" width="33%">
-  <img src="https://github.com/ArtemVetik/Sokoban_SDL2/blob/master/docs/sokoban_03.png" width="33%">
-  <img src="https://github.com/ArtemVetik/Sokoban_SDL2/blob/master/docs/sokoban_04.png" width="33%">
+  <img src="https://github.com/ArtemVetik/Sokoban_SDL2/blob/master/docs/sokoban_02.png" width="32%">
+  <img src="https://github.com/ArtemVetik/Sokoban_SDL2/blob/master/docs/sokoban_03.png" width="32%">
+  <img src="https://github.com/ArtemVetik/Sokoban_SDL2/blob/master/docs/sokoban_04.png" width="32%">
 </p>
 
